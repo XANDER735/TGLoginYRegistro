@@ -1,11 +1,17 @@
 @extends('layouts.app')
 
+
 @section('content')
-<div class="container">
+<div class="container" >
+    <div class="fon" style="background-repeat: no-repeat;background-position: center;margin: 0px auto ;height: 340px;width:880px;">
+        <h1  style="color: #0F0;text-align: center;font-family: 'Nanum Pen Script', cursive;font-size: 53px;height: 120px;"></h1>
+    </div>
     <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
+        <img src="img/idle/1.png" id="monster" alt="">
+
+        <div class="col-md-8" style="top: -120px">
+            <div class="card" >
+                <div class="card-header" style="background-color:rgba(244, 119, 54);color: white;">{{ __('Login') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
@@ -68,6 +74,7 @@
                 </div>
             </div>
         </div>
+        <script src="{{url('js/ani.js')}}"></script>
     </div>
 </div>
 @endsection

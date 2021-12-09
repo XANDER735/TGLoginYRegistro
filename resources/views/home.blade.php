@@ -3,9 +3,13 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
+            <div class="text-center">
+                <img src="info.jpeg" class="rounded" alt="..." width="1110" height="600">
+            </div>
+
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">{{ __('Bienvenido!') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,9 +18,11 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('-------------------------') }}
+                    
                 </div>
             </div>
+            
         </div>
     </div>
 </div>
