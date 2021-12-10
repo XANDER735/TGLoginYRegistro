@@ -7,8 +7,13 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+<<<<<<< HEAD
     <title>{{ config('app.name', 'Laravel') }}</title>
     
+=======
+    <title>Login y Registro</title>
+
+>>>>>>> ad4621c0f3c791050c62aa534de3d9c16d1bdc98
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -25,7 +30,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    Menu Principal
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -42,13 +47,13 @@
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
-                                <li class="nav-item" style="background-image: url(1p.png)">
+                                <li class="nav-item" style="background-image: url(1.1p.png)">
                                     <a onMouseOver="this.style.color='#FF911A'"onMouseOut="this.style.color='#000'" class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
 
                             @if (Route::has('register'))
-                                <li class="nav-item" style="background-image: url(1p.png)">
+                                <li class="nav-item" style="background-image: url(1.1p.png)">
                                     <a onMouseOver="this.style.color='#0F0'"onMouseOut="this.style.color='#000'" class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
