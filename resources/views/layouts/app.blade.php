@@ -7,13 +7,13 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<<<<<<< HEAD
+
     <title>{{ config('app.name', 'Laravel') }}</title>
     
-=======
+
     <title>Login y Registro</title>
 
->>>>>>> ad4621c0f3c791050c62aa534de3d9c16d1bdc98
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
