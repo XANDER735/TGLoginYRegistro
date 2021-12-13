@@ -34,11 +34,10 @@
 
          <div class="list-container" >
              <ul class="lists">
-                 <li><a href="#" class="active">Inicio</a></li>
+                 <li><a href="http://localhost:8000" class="active">Inicio</a></li>
                  <li><a href="#">Blog</a></li>
                  <li><a href="#">Zoologicos</a></li>
                  <li><a href="#">Tienda</a></li>
-                 <li><a href="http://localhost:8000">Home</a></li>
                  <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
                  
                 
