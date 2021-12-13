@@ -38,6 +38,7 @@
                  <li><a href="#11">Nosotros</a></li>
                  <li><a href="#22">Donaciones</a></li>
                  <li><a href="#33">Animales</a></li>
+                 <li><a href="#44">Videos</a></li>
                  <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
                  
                 
@@ -139,7 +140,15 @@
          </div>
 
     </section>
-
+    <div style="text-align: center" id="44">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YIEh49wvF_k?start=70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SOYuURMLQ0s?start=26" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div style="text-align: center" id="44">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EKhdpRBboiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8FZjdAEsZSA?start=485" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
     <!-- Footer -->
     <footer>
        <p>&copy; Todos los derechos reservados - 2021 | MundoAndino</p>
