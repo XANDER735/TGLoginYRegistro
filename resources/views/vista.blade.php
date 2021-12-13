@@ -12,14 +12,16 @@
     <link rel="stylesheet" href="css/tablet.css">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
-<body>
+<body style="font-family: 'Nanum Pen Script', cursive">
 
     <header id="header">
 
      <!-- Navegation Menu -->
-     <nav class="menu">
+     <nav class="menu" style="background-color: rgba(178, 187, 30, 1)">
          <div class="logobox">
              <h1 class="logo"><a href="#">
                 <i class="fas fa-tree"></i>
@@ -29,7 +31,7 @@
              <span class="btn-menu"><i class="fas fa-bars"></i></span>
          </div>
 
-         <div class="list-container">
+         <div class="list-container" >
              <ul class="lists">
                  <li><a href="#" class="active">Inicio</a></li>
                  <li><a href="#">Blog</a></li>
@@ -42,11 +44,11 @@
 
      <!-- Img Header -->
      <figure class="img-header">
-         <div class="welcome">
-            <h4>"Los ojos de un animal tienen el poder de hablar un gran lenguaje"</h4>
-            <h2><a href="#">
+         <div class="welcome" style="">
+            <h4 style="font-family: 'Fuzzy Bubbles', cursive;">"Los ojos de un animal tienen el poder de hablar un gran lenguaje"</h4>
+            <h2><a href="#" style="font-family: 'Fuzzy Bubbles', cursive;">
                <i class="fas fa-tree"></i>
-               MundoAndino
+               zoologico Mundo Andino
             </a></h2>
          </div>
      </figure>
