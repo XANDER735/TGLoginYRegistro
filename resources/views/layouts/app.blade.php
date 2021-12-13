@@ -30,7 +30,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    Menu Principal
+                    Inicio
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -51,12 +51,16 @@
                                     <a onMouseOver="this.style.color='#FF911A'"onMouseOut="this.style.color='#000'" class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
-
+                            
+                            
                             @if (Route::has('register'))
                                 <li class="nav-item" style="background-image: url(1.1p.png)">
+                                    <!--
                                     <a onMouseOver="this.style.color='#0F0'"onMouseOut="this.style.color='#000'" class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                    -->
                                 </li>
                             @endif
+                            
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

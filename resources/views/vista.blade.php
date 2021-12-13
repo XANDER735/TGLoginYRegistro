@@ -22,7 +22,7 @@
     <header id="header">
 
      <!-- Navegation Menu -->
-     <nav class="menu"">
+     <nav class="menu">
          <div class="logobox">
              <h1 class="logo"><a href="#">
                 <i class="fas fa-tree"></i>
@@ -39,6 +39,12 @@
                  <li><a href="#">Zoologicos</a></li>
                  <li><a href="#">Tienda</a></li>
                  <li><a href="#">Contacto</a></li>
+                 <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
+                 
+                
+
+
+
              </ul>
          </div>
      </nav>
