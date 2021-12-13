@@ -72,10 +72,11 @@
                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
                 </div>
 
-                <div>
-                    <div class="span-icon"><span><i class="fas fa-images"></i></span></div>
+                <div class="container borde">
+                    <!-- <div class="span-icon"><span><i class="fas fa-images"></i></span></div>
                     <h6>Awesome Photos</h6>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p> -->
+                    <img src="img/yape.png" class="img-fluid d-block mx-auto" width="300" height="auto" alt="yp">
                  </div>
 
                  <div>
@@ -87,12 +88,14 @@
             </div>
         </div>
     </section>
-
+    <br>
+    <br>
     <!-- Gallery -->
     <section class="gallery-section">
         <div class="animal-icon">
-            <i class="fas fa-paw"></i>
+            <i class="fas fa-paw"></i><br><br>            
         </div>
+       
 
         <div class="gallery-content">
             <div class="img-card"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/01/5d/42/photo0jpg.jpg?w=1200&h=-1&s=1" alt="animal"></div>
@@ -107,7 +110,9 @@
             <div class="img-card"><img src="img/img-10.jpg" alt="animal"></div>
             <div class="img-card"><img src="img/img-11.jpg" alt="animal"></div>
             <div class="img-card"><img src="img/img-12.jpg" alt="animal"></div>
+            
         </div>
+        
 
         <!-- Modal -->
          <div class="modal">
@@ -117,7 +122,7 @@
          </div>
 
     </section>
-   
+
     <!-- Footer -->
     <footer>
        <p>&copy; Todos los derechos reservados - 2021 | MundoAndino</p>
@@ -127,12 +132,7 @@
     
 <!-- Scripts -->
 <script src="https://kit.fontawesome.com/35db202371.js" crossorigin="anonymous"></script>
-<script src="js/app.js"></script>
+<script src="js/ap.js"></script>
 
 </body>
 </html>
-
-
-<!-- <div class="text-center">
-  <img src="img/yape.png" class="img-thumbnail rounded mx-auto d-block" style="max-width: 20%" alt="...">
-</div> -->
