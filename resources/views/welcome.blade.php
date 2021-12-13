@@ -407,13 +407,6 @@
                 height: 430px;
             }
         }
-
-
-
-
-
-
-
     </style>
 </head>
 
@@ -446,40 +439,6 @@
         </div>
     </nav>
     <br>
-    <!--
-    <div>
-        <main>
-            <nav class="navbar navbar-expand-lg navbar-light bg-success" style="background-color: brown;">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="https://tuguia.net/storage/empresas/miniaturas/istta-mini-1523978826.jpeg" class="img-fluid" width="100px" height="100px" alt=""></a>
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">REGISTRARSE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">INICIAR SESION</a>
-                            </li>
-
-
-                        </ul>
-                        <a class="navbar-brand" href="#"><img src="https://i.ytimg.com/vi/n-6wYfDjz0w/maxresdefault.jpg" class="img-fluid" width="100px" height="100px" alt=""></a>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-            <BR>
-        </main>
-    </div>
--->
     <br><br>
     <div class="fondo-titulo fondito" style="text-align: center">
         <h1>BIENVENIDOS AL NUESTRO ZOOLOGICO<BR> MUNDO ANDINO</h1>
@@ -523,7 +482,7 @@
 <BR>
     <div id="section1" >
     <div style="text-align: center;"><BR>
-        <h2 style="color: brown;"> MISION</h2><BR>
+        <h2 style="color: brown;"> MISION </h2><BR>
         <p>
             Contribuir a la protección del ambiente, promoviendo el conocimiento y sensibilización sobre <br>
             la biodiversidad mediante la creación de experiencias inolvidables, la ejecución de programas <br>
@@ -531,7 +490,7 @@
             conservación de especies animales, vegetales, ecosistemas y las etnias nativas del perú.
         </p>
         <BR>
-        <h2 style="color: brown;"> VISION</h2><BR>
+        <h2 style="color: brown;"> VISION </h2><BR>
         <p>
             Ser un zoologico sólida y reconocida por su variedad de especies en animales a nivel nacional <br>
             e internacional, promover la investigación, educación, recreación, manejo, crianza <br>
@@ -716,16 +675,9 @@
         <h4>¡Donaciones!</h4>
 
         <div class="icons">
-            <!-- <div class="hidden">
-               <div class="span-icon"><span><i class="fas fa-file-pdf"></i></span></div>
-               <h6>PDF</h6>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
-            </div>-->
 
             <div class="free-content">
-                <!-- <div class="span-icon"><span><i class="fas fa-images"></i></span></div>
-                <h6>Awesome Photos</h6>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p> -->
+                
                 <img src="img/yape.png" class="img-fluid" width="600" height="auto" alt="yp">
               
                 
@@ -734,7 +686,7 @@
              <div>
                 <div class="span-icon"><span><i class="fab fa-youtube"></i></span></div>
                 <h6>Youtube</h6>
-                <h1 style="font-size: 30px">AHORA ES EL MOMENTO DE ACTUAR POR LA VIDA SILVESTRE. LA CONSERVACIÓN ES CRÍTICA; LAS ESPECIES ESTÁN AMENAZADAS. JUNTOS PODEMOS HACER UNA GRAN DIFERENCIA. ACTÚE HOY Y ÚNASE A NOSOTROS PARA PREVENIR LA EXTINCIÓN .</h1>
+                <h1 style="font-size: 30px"><br><br><br>AHORA ES EL MOMENTO DE ACTUAR POR LA VIDA SILVESTRE. LA CONSERVACIÓN ES CRÍTICA; LAS ESPECIES ESTÁN AMENAZADAS. JUNTOS PODEMOS HACER UNA GRAN DIFERENCIA. ACTÚE HOY Y ÚNASE A NOSOTROS PARA PREVENIR LA EXTINCIÓN .</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
              </div>
             
