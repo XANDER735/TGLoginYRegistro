@@ -22,7 +22,7 @@
     <header id="header">
 
      <!-- Navegation Menu -->
-     <nav class="menu"">
+     <nav class="menu">
          <div class="logobox">
              <h1 class="logo"><a href="#">
                 <i class="fas fa-tree"></i>
@@ -68,23 +68,27 @@
 
         <div class="free-content">
             <h4>¡Donaciones!</h4>
+
             <div class="icons">
-                <div class="hidden">
+                <!-- <div class="hidden">
                    <div class="span-icon"><span><i class="fas fa-file-pdf"></i></span></div>
                    <h6>PDF</h6>
                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
-                </div>
+                </div>-->
 
                 <div class="free-content">
                     <!-- <div class="span-icon"><span><i class="fas fa-images"></i></span></div>
                     <h6>Awesome Photos</h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p> -->
                     <img src="img/yape.png" class="img-fluid" width="600" height="auto" alt="yp">
+                  
+                    
                  </div>
 
                  <div>
                     <div class="span-icon"><span><i class="fab fa-youtube"></i></span></div>
                     <h6>Youtube</h6>
+                    <h1 style="font-size: 30px">AHORA ES EL MOMENTO DE ACTUAR POR LA VIDA SILVESTRE. LA CONSERVACIÓN ES CRÍTICA; LAS ESPECIES ESTÁN AMENAZADAS. JUNTOS PODEMOS HACER UNA GRAN DIFERENCIA. ACTÚE HOY Y ÚNASE A NOSOTROS PARA PREVENIR LA EXTINCIÓN .</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
                  </div>
                 
