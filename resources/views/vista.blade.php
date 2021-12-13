@@ -35,9 +35,9 @@
          <div class="list-container" >
              <ul class="lists">
                  <li><a href="http://localhost:8000" class="active">Inicio</a></li>
-                 <li><a href="#">Blog</a></li>
-                 <li><a href="#">Zoologicos</a></li>
-                 <li><a href="#">Tienda</a></li>
+                 <li><a href="#11">Nosotros</a></li>
+                 <li><a href="#22">Donaciones</a></li>
+                 <li><a href="#33">Animales</a></li>
                  <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
                  
                 
@@ -62,15 +62,18 @@
     </header>
 
 <main>
-    
+    <div id="11">
+        <br><br>
+    </div>
     <!-- About Us -->
-    <section class="about-us">
-        <div class="info">
-            <h3>Acerca de nosotros</h3>
+    <section class="about-us"">
+        <div class="info" >
+            <h3 >Acerca de nosotros</h3>
             <p>Estamos orgullosos de nuestra exitosa historia salvando animales, desde pájaros hasta pumas de los andes. Conozca algunos de nuestros trabajos rescatando gran cantidad de diferentes especies, como felinos, aves, auquenidos, etc.</p>
             <hr>
         </div>
-
+        <div id="22">
+                </div>
         <div class="free-content">
             <h4>¡Donaciones!</h4>
 
@@ -102,8 +105,10 @@
     </section>
     <br>
     <br>
+    <div id="33">
+<br><br>
+    </div>
     <!-- Gallery -->
-    <section class="gallery-section">
         <div class="animal-icon">
             <i class="fas fa-paw"></i><br><br>            
         </div>
