@@ -755,7 +755,7 @@
         # Miguel Ángel Tejada Huillca <br>
         # Alexandre Yuri Flores Cruz<br>
         # Yin Sanders Saire Montejo<br>
-        # Neptalí Raymi Huamani gaaaa<br>
+        # Neptalí Raymi Huamani<br>
 
 
     </div>
