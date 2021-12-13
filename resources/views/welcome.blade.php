@@ -420,7 +420,7 @@
 <body style="font-family: 'Corinthia', cursive;font-family: 'Fuzzy Bubbles', cursive;">
 
     <br>
-    <nav class="menu">
+    <nav class="menu" style="position: fixed;">
         
         <div class="logobox">
             <h1 class="logo"><a href="#">
@@ -430,8 +430,7 @@
 
             <span class="btn-menu"><i class="fas fa-bars"></i></span>
         </div>
-        <
-        <div class="list-container" >
+        <div class="list-container">
             <br>
             <ul class="lists">
                 <br>
@@ -441,7 +440,7 @@
                 <li><a href="#33">Recomendaciones</a></li>
                 <li><a href="#44">Consejos</a></li>
                 <li><a href="#55">Donaciones</a></li>
-                <li><a href="{{ route('mas_informacion') }}">Mas Informacion</a></li>
+                <li><a href="http://localhost:8000/vista">Mas Informacion</a></li>
                 <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
             </ul>
         </div>

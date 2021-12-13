@@ -64,3 +64,7 @@ Route::get('/vista', [HomeController::class, 'index2'])->name('mas_informacion')
 //Route::get('/', [HomeController::class, 'index2'])->name('vista');
 //Route::get('/vista',function() 
 //{return view('vista');});
+
+Route::get('/vista', function () {
+    return view('/vista');
+});
