@@ -38,7 +38,7 @@
                  <li><a href="#">Blog</a></li>
                  <li><a href="#">Zoologicos</a></li>
                  <li><a href="#">Tienda</a></li>
-                 <li><a href="#">Contacto</a></li>
+                 <li><a href="{{ route('home') }}">Home</a></li>
                  <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
                  
                 

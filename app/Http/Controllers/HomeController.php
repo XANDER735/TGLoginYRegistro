@@ -16,6 +16,10 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    public function index2()
+    {
+        return view('vista');
+    }
     public function index()
     {
         $animales= Animale::toBase()->get();
@@ -90,10 +94,10 @@ class HomeController extends Controller
         //script para subir la imagen
         if($request->hasFile("imagen")){
             $imagen= $request->file("imagen");
-            $nombreimg = Str::slug ($request->nombre)."_".($request->especie).".".$imagen->guessExtension();
+            $nombreimg = Str::slug ($request->nombre)."_".($request->especie)."new.".$imagen->guessExtension();
             $ruta= public_path("img/");
             $imagen->move($ruta, $nombreimg);
-            $newanimal->imagen = $nombreimg;    
+            $animal->imagen = $nombreimg;    
         } 
         $animal->save();
         

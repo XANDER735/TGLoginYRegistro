@@ -25,7 +25,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     
 </head>
-<body >
+<body>
     <div id="app" style="font-family: 'Bowlby One SC', cursive;font-size: 18px;background-image: url(4.png);background-repeat: no-repeat;background-position: center">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">

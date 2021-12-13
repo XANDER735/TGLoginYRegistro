@@ -7,7 +7,7 @@
         <div class="row">     
                 <a class="col order-1 btn btn-outline-primary" href="{{ route('animales.crear') }}"><div>
                         AGREGAR ANIMALES </div></a>
-                <a class="col order-2 btn btn-outline-warning" href="{{ route('animales.index') }}"><div> 
+                <a class="col order-2 btn btn-outline-success" href="{{ route('animales.index') }}"><div> 
                         VER LISTA DE ANIMALES</div></a>
             </div>  
         <div class="row bg-primary bg-gradient text-white p-1 text-center"><h1>CREAR ANIMALES</h1></div><br>

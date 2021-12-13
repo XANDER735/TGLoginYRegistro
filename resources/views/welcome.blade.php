@@ -441,6 +441,7 @@
                 <li><a href="#33">Recomendaciones</a></li>
                 <li><a href="#44">Consejos</a></li>
                 <li><a href="#55">Donaciones</a></li>
+                <li><a href="{{ route('mas_informacion') }}">Mas Informacion</a></li>
                 <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
             </ul>
         </div>

@@ -28,18 +28,18 @@ Route::get('/', function () {
     return view('/welcome');
 });
 
-Auth::routes();
+//Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('vista');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('vista');
 
-Auth::routes();
+//Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
+//Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 #####
 
@@ -59,5 +59,8 @@ Route::get('animales/{animal}', [HomeController::class, 'ver'])->name('animales.
 //eliminar
 Route::delete('animales/{animal}', [HomeController::class, 'eliminar'])->name('animales.eliminar');
 //=======
-//Route::get('/home', [HomeController::class, 'index'])->name('home');
-//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('vista');
+Route::get('/vista', [HomeController::class, 'index2'])->name('mas_informacion');
+//Route::get('/vista', [App\Http\Controllers\HomeController::class, 'index2'])->name('mas_informacion');
+//Route::get('/', [HomeController::class, 'index2'])->name('vista');
+//Route::get('/vista',function() 
+//{return view('vista');});
