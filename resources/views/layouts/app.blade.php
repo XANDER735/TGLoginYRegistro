@@ -55,9 +55,9 @@
                             
                             @if (Route::has('register'))
                                 <li class="nav-item" style="background-image: url(1.1p.png)">
-                                    <!--
+                                <!--    
                                     <a onMouseOver="this.style.color='#0F0'"onMouseOut="this.style.color='#000'" class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
-                                    -->
+                                -->
                                 </li>
                             @endif
                             

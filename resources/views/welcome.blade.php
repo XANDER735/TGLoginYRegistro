@@ -435,11 +435,12 @@
             <br>
             <ul class="lists">
                 <br>
-                <li><a href="#" class="active">Inicio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Zoologicos</a></li>
-                <li><a href="#">Tienda</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="" class="active">Inicio</a></li>
+                <li><a href="#section1">Mision y Vision</a></li>
+                <li><a href="#22">Actividades</a></li>
+                <li><a href="#33">Recomendaciones</a></li>
+                <li><a href="#44">Consejos</a></li>
+                <li><a href="#55">Donaciones</a></li>
                 <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
             </ul>
         </div>
@@ -519,15 +520,18 @@
 
         </ul>
     </div>
-    <div style="text-align: center;">
-        <h2 style="color: brown;"> MISION</h2>
+<BR>
+    <div id="section1" >
+    <div style="text-align: center;"><BR>
+        <h2 style="color: brown;"> MISION</h2><BR>
         <p>
             Contribuir a la protección del ambiente, promoviendo el conocimiento y sensibilización sobre <br>
             la biodiversidad mediante la creación de experiencias inolvidables, la ejecución de programas <br>
             de investigación científica, educación, manejo y crianza de fauna y flora aplicados a la <br>
             conservación de especies animales, vegetales, ecosistemas y las etnias nativas del perú.
         </p>
-        <h2 style="color: brown;"> VISION</h2>
+        <BR>
+        <h2 style="color: brown;"> VISION</h2><BR>
         <p>
             Ser un zoologico sólida y reconocida por su variedad de especies en animales a nivel nacional <br>
             e internacional, promover la investigación, educación, recreación, manejo, crianza <br>
@@ -535,9 +539,13 @@
         </p>
     </div>
     <br><br>
+</div>
 
-    <section class="caja">
-        <div class="contenedor">
+
+    <section class="caja" id="22">
+    
+        <h1 style="text-align: center;color:brown">ACTIVIDADES</h1><BR>
+        <div class="contenedor" >
             <div class="caja__columna">
                 <svg>
                     <rect></rect>
@@ -584,6 +592,7 @@
 
     <br><br><br><br>
     <table>
+        <div id="33">
     <h1 style="text-align: center;color:brown">RECOMENDACIONES</h1>
         <tr>
             <td>
@@ -652,12 +661,15 @@
                 </div>
             </td>
         </tr>
+        </div>
     </table>
 
 
 
-    <section class="caja">
-        <div class="contenedor">
+    <section class="caja" id="44">
+        <h1 style="text-align: center;color:brown">CONSEJOS</h1> <BR>
+        <div class="contenedor" >
+            
             <div class="caja__columna2">
                 <svg>
                     <rect></rect>
@@ -699,7 +711,36 @@
 
     </section>
 
+    <section class="about-us">
+    <div class="free-content" id="55">
+        <h4>¡Donaciones!</h4>
 
+        <div class="icons">
+            <!-- <div class="hidden">
+               <div class="span-icon"><span><i class="fas fa-file-pdf"></i></span></div>
+               <h6>PDF</h6>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
+            </div>-->
+
+            <div class="free-content">
+                <!-- <div class="span-icon"><span><i class="fas fa-images"></i></span></div>
+                <h6>Awesome Photos</h6>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p> -->
+                <img src="img/yape.png" class="img-fluid" width="600" height="auto" alt="yp">
+              
+                
+             </div>
+
+             <div>
+                <div class="span-icon"><span><i class="fab fa-youtube"></i></span></div>
+                <h6>Youtube</h6>
+                <h1 style="font-size: 30px">AHORA ES EL MOMENTO DE ACTUAR POR LA VIDA SILVESTRE. LA CONSERVACIÓN ES CRÍTICA; LAS ESPECIES ESTÁN AMENAZADAS. JUNTOS PODEMOS HACER UNA GRAN DIFERENCIA. ACTÚE HOY Y ÚNASE A NOSOTROS PARA PREVENIR LA EXTINCIÓN .</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
+             </div>
+            
+        </div>
+    </div>
+</section>
 
 
 
