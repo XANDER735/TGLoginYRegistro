@@ -16,6 +16,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body::-webkit-scrollbar {
+        width: 12px;
+        }
+        body::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+        }
+        body::-webkit-scrollbar-thumb {
+        background-color: #aab74d;
+        background-image:-webkit-linear-gradient(rgba(255,255,255,.3) 20%,transparent 20%,transparent 40%,rgba(255, 255, 255, 0.3) 40%,rgba(255,255,255,.3) 60%,transparent 60%,transparent 80%,rgba(255, 255, 255, 0.3) 80%);
+        border-radius: 10px;
+        }
+        /*body{
+            cursor: url("/img/ico.png");
+        }*/
+        
+    </style>
 </head>
 <body style="font-family: 'Nanum Pen Script', cursive">
 

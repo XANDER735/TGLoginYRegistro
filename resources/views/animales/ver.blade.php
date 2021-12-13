@@ -1,27 +1,26 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"></head>
 @extends('layouts.app')
 @section('content')
-<body class="bg-light">
-        
-<div class="row p-1 mb-0 bg-primary bg-gradient text-white p-1 text-center"><h5>VISTA DE ANIMALES</h5></div>
+<body>
 <div class="container">
+    <div class="row p-2 mb-2 bg-primary bg-gradient text-white p-1 text-center"><h5>VISTA DE ANIMALES</h5></div>
     <div class="row p-0 mb-0 bg-warning bg-gradient text-black p-1 text-center"><h5 class="btn btn-warning">{{ $animal->especie }}</h5></div>
     <div class="row">
-                <div class="col order-1 btn btn-success"><img src="/img/{{$animal->imagen}}" alt="" style="width:80%;"></div> 
+                <div class="col order-1 btn btn-success content-center"><img src="/img/{{$animal->imagen}}" alt="" style="width:80%;"></div> 
                 <div class="col order-2 btn btn-success">
-                                <div class="row p-2 mb-4 justify-content-center">   
+                                <div class="row p-2 mb-0 justify-content-center">   
                                         <div class="col-4" >
                                                 <label for="">ESPECIE</label>
                                                 <input class="form-control" type="text" name="especie" value="{{ $animal->especie }}" readonly>
                                         </div>
                                 </div>
-                                <div class="row p-2 mb-4 justify-content-center">
+                                <div class="row p-2 mb-0 justify-content-center">
                                         <div class="col-5">
                                                 <label for="">NOMBRE</label>
                                                 <input class="form-control" type="text" name="nombre" value="{{ $animal->nombre }}" readonly>
                                         </div>
                                 </div>
-                                <div class="row p-2 mb-4 justify-content-center">
+                                <div class="row p-2 mb-0 justify-content-center">
                                         <div class="col-5">
                                                 <label for="">FAMILIA</label>
                                                 <input class="form-control" type="text" name="familia" value="{{ $animal->familia }}" readonly>
@@ -31,7 +30,7 @@
                                                 <input class="form-control" name="genero" value="{{ $animal->genero }}" readonly>
                                         </div>
                                 </div>
-                                <div class="row p-2 mb-4 justify-content-center">
+                                <div class="row p-2 mb-0 justify-content-center">
                                         
                                         <div class="col-5" >
                                                 <label class="form-label">LONGEVIDAD</label>        
@@ -43,8 +42,7 @@
                                             <input class="form-control" name="longitud" value="{{ $animal->longitud }}" readonly>
                                             <span class="input-group-text">Metros</span>
                                         </div>
-                                <div class="row p-2 mb-4 justify-content-evenly">
-                                            
+                                <div class="row p-2 mb-0 justify-content-evenly">   
                                         
                                 </div>
                                     <div class="row g-2 justify-content-center">

@@ -2,12 +2,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-        <div class="row">     
-                <a class="col order-1 btn btn-outline-primary" href="{{ route('animales.crear') }}"><div>
-                        AGREGAR ANIMALES </div></a>
-                <a class="col order-2 btn btn-outline-danger" href="{{ route('animales.index') }}"><div> 
-                        VER LISTA DE ANIMALES</div></a>
-            </div>    
+           
     <div class="row p-2 mb-2 bg-primary bg-gradient text-white p-1 text-center"><h1>EDITAR ANIMALES</h1></div>
     <form action="{{ route('animales.actualizar', $animal->especie) }}" method="post">
 

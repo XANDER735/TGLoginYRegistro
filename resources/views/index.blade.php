@@ -5,15 +5,6 @@
     {{--@extends('layouts.plantilla')--}}
     @section('title','Animales')
     @section('content')
-    <div class="container"> 
-        <div class="row">
-                    
-            <a class="col order-1 btn btn-outline-primary" href="{{ route('animales.crear') }}"><div>
-                    AGREGAR ANIMALES </div></a>
-            <a class="col order-2 btn btn-outline-warning" href="{{ route('animales.index') }}"><div> 
-                    VER LISTA DE ANIMALES</div></a>
-        </div>
-    </div>
     
     <div class="container">
         <div class="row bg-danger bg-gradient text-white p-1 text-center"><h3>ANIMALES</h3></div>

@@ -32,6 +32,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mundo Andino - Inicio</title>
     <style>
+        body::-webkit-scrollbar {
+        width: 12px;
+        }
+        body::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.4);
+        }
+        body::-webkit-scrollbar-thumb {
+        background-color: #aab74d;
+        background-image:-webkit-linear-gradient(rgba(255,255,255,.3) 20%,transparent 20%,transparent 40%,rgba(255, 255, 255, 0.3) 40%,rgba(255,255,255,.3) 60%,transparent 60%,transparent 80%,rgba(255, 255, 255, 0.3) 80%);
+        border-radius: 10px;
+        }
         #img {
             width: 95%;
             margin: auto;
