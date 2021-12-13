@@ -12,8 +12,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
 
+ <!-- Styles -->
+ <link rel="stylesheet" href="css/styles.css">
+ <link rel="stylesheet" href="css/mobile.css">
+ <link rel="stylesheet" href="css/tablet.css">
+ <link href="https://fonts.googleapis.com/css?family=Lora:400,700&display=swap" rel="stylesheet">
+ <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-
+ <!-- ///////////////////////////////////////////////////////////////////////// -->
 
 
 
@@ -409,6 +419,33 @@
 
 <body style="font-family: 'Corinthia', cursive;font-family: 'Fuzzy Bubbles', cursive;">
 
+    <br>
+    <nav class="menu">
+        
+        <div class="logobox">
+            <h1 class="logo"><a href="#">
+               <i class="fas fa-tree"></i>
+               MundoAndino
+            </a></h1>
+
+            <span class="btn-menu"><i class="fas fa-bars"></i></span>
+        </div>
+        <
+        <div class="list-container" >
+            <br>
+            <ul class="lists">
+                <br>
+                <li><a href="#" class="active">Inicio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Zoologicos</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="{{ route('login') }}">Iniciar Sesion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <!--
     <div>
         <main>
             <nav class="navbar navbar-expand-lg navbar-light bg-success" style="background-color: brown;">
@@ -441,6 +478,7 @@
             <BR>
         </main>
     </div>
+-->
     <br><br>
     <div class="fondo-titulo fondito" style="text-align: center">
         <h1>BIENVENIDOS AL NUESTRO ZOOLOGICO<BR> MUNDO ANDINO</h1>
