@@ -56,14 +56,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  
   font-family: "Nunito", sans-serif;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.6;
   color: #212529;
   text-align: left;
-  background-color: #000;
+  background-color: #f8fafc;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -6201,7 +6200,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: rgba(178, 187, 30, 1) !important;
+  background-color: #fff !important;
 }
 
 .bg-transparent {
@@ -10018,8 +10017,5 @@ h3 {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
-  }
-  .container{
-    background-color: red;
   }
 }
