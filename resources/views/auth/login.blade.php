@@ -3,7 +3,7 @@
 
 @section('content')
 <div class="container" >
-    <h1>login de prueba</h1>
+    
     <div class="fon" style="background-repeat: no-repeat;background-position: center;margin: 0px auto ;height: 240px;width:880px;">
         <h1  style="color: #0F0;text-align: center;font-family: 'Nanum Pen Script', cursive;font-size: 53px;height: 120px;"></h1>
     </div>
@@ -77,6 +77,8 @@
         </div>
         <script src="{{url('js/ani.js')}}"></script>
     </div>
-    
+    <div class="fon" style="background-repeat: no-repeat;background-position: center;margin: 0px auto ;height: 240px;width:880px;">
+        <h1  style="color: #0F0;text-align: center;font-family: 'Nanum Pen Script', cursive;font-size: 53px;height: 120px;"></h1>
+    </div>
 </div>
 @endsection
