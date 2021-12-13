@@ -483,7 +483,7 @@
 <BR>
     <div id="section1" >
     <div style="text-align: center;"><BR>
-        <h2 style="color: brown;"> MISION</h2><BR>
+        <h2 style="color: brown;"> MISION </h2><BR>
         <p>
             Contribuir a la protección del ambiente, promoviendo el conocimiento y sensibilización sobre <br>
             la biodiversidad mediante la creación de experiencias inolvidables, la ejecución de programas <br>
@@ -491,7 +491,7 @@
             conservación de especies animales, vegetales, ecosistemas y las etnias nativas del perú.
         </p>
         <BR>
-        <h2 style="color: brown;"> VISION</h2><BR>
+        <h2 style="color: brown;"> VISION </h2><BR>
         <p>
             Ser un zoologico sólida y reconocida por su variedad de especies en animales a nivel nacional <br>
             e internacional, promover la investigación, educación, recreación, manejo, crianza <br>
@@ -687,7 +687,7 @@
              <div>
                 <div class="span-icon"><span><i class="fab fa-youtube"></i></span></div>
                 <h6>Youtube</h6>
-                <h1 style="font-size: 30px">AHORA ES EL MOMENTO DE ACTUAR POR LA VIDA SILVESTRE. LA CONSERVACIÓN ES CRÍTICA; LAS ESPECIES ESTÁN AMENAZADAS. JUNTOS PODEMOS HACER UNA GRAN DIFERENCIA. ACTÚE HOY Y ÚNASE A NOSOTROS PARA PREVENIR LA EXTINCIÓN .</h1>
+                <h1 style="font-size: 30px"><br><br><br>AHORA ES EL MOMENTO DE ACTUAR POR LA VIDA SILVESTRE. LA CONSERVACIÓN ES CRÍTICA; LAS ESPECIES ESTÁN AMENAZADAS. JUNTOS PODEMOS HACER UNA GRAN DIFERENCIA. ACTÚE HOY Y ÚNASE A NOSOTROS PARA PREVENIR LA EXTINCIÓN .</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
              </div>
             
