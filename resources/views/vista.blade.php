@@ -14,14 +14,15 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body style="font-family: 'Nanum Pen Script', cursive">
 
     <header id="header">
 
      <!-- Navegation Menu -->
-     <nav class="menu" style="background-color: rgba(178, 187, 30, 1)">
+     <nav class="menu"">
          <div class="logobox">
              <h1 class="logo"><a href="#">
                 <i class="fas fa-tree"></i>
@@ -45,10 +46,10 @@
      <!-- Img Header -->
      <figure class="img-header">
          <div class="welcome" style="">
-            <h4 style="font-family: 'Fuzzy Bubbles', cursive;">"Los ojos de un animal tienen el poder de hablar un gran lenguaje"</h4>
+            <h4 style="font-family: 'Fuzzy Bubbles', cursive;">"Los ojos de un animal tienen el poder de hablar un gran idioma"</h4>
             <h2><a href="#" style="font-family: 'Fuzzy Bubbles', cursive;">
                <i class="fas fa-tree"></i>
-               zoologico Mundo Andino
+               zoológico Mundo Andino
             </a></h2>
          </div>
      </figure>
@@ -61,24 +62,24 @@
     <section class="about-us">
         <div class="info">
             <h3>Acerca de nosotros</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem possimus, cum nostrum quibusdam, tempore odit recusandae delectus eos debitis ducimus quisquam similique porro animi ut quos, eum fuga perferendis. Quibusdam, dignissimos repudiandae possimus amet deserunt doloribus eius vero consectetur exercitationem impedit? Obcaecati asperiores repellat deserunt ullam necessitatibus repudiandae ut.</p>
+            <p>Estamos orgullosos de nuestra exitosa historia salvando animales, desde pájaros hasta pumas de los andes. Conozca algunos de nuestros trabajos rescatando gran cantidad de diferentes especies, como felinos, aves, auquenidos, etc.</p>
             <hr>
         </div>
 
         <div class="free-content">
-            <h4>Contenido 100% gratis!</h4>
+            <h4>¡Donaciones!</h4>
             <div class="icons">
-                <div>
+                <div class="hidden">
                    <div class="span-icon"><span><i class="fas fa-file-pdf"></i></span></div>
                    <h6>PDF</h6>
                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p>
                 </div>
 
-                <div class="container borde">
+                <div class="free-content">
                     <!-- <div class="span-icon"><span><i class="fas fa-images"></i></span></div>
                     <h6>Awesome Photos</h6>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut itaque.</p> -->
-                    <img src="img/yape.png" class="img-fluid d-block mx-auto" width="300" height="auto" alt="yp">
+                    <img src="img/yape.png" class="img-fluid" width="600" height="auto" alt="yp">
                  </div>
 
                  <div>
