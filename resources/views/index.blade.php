@@ -7,7 +7,7 @@
     @section('content')
     
     <div class="container">
-        <div class="row bg-danger bg-gradient text-white p-1 text-center"><h3>ANIMALES</h3></div>
+        <div class="row bg-white bg-gradient text-black p-1 text-center"><h3>ANIMALES</h3></div>
         <div class="row">
     <!--directiva de blade-->
     @forelse ($animales as $animal)

@@ -94,9 +94,10 @@ class HomeController extends Controller
         //script para subir la imagen
         if($request->hasFile("imagen")){
             $imagen= $request->file("imagen");
-            $nombreimg = Str::slug ($request->nombre)."_".($request->especie)."new.".$imagen->guessExtension();
+            $nombreimg = Str::slug ($request->nombre)."_".($request->especie).".".$imagen->guessExtension();
             $ruta= public_path("img/");
-            $imagen->move($ruta, $nombreimg);
+            //$imagen->move($ruta, $nombreimg);
+            copy($imagen->getRealPath(),$ruta.$nombreimg);
             $animal->imagen = $nombreimg;    
         } 
         $animal->save();
